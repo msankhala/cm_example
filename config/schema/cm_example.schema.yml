@@ -1,0 +1,10 @@
+cm_example.cm_example.*:
+  type: config_entity
+  label: 'CM example config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'

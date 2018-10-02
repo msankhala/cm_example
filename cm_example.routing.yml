@@ -1,0 +1,31 @@
+entity.cm_example.collection:
+  path: '/admin/structure/cm_example'
+  defaults:
+    _entity_list: 'cm_example'
+    _title: 'CM example entity'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.cm_example.add_form:
+  path: '/admin/structure/cm_example/add'
+  defaults:
+    _entity_form: 'cm_example.add'
+    _title: 'Add CM example'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.cm_example.edit_form:
+  path: '/admin/structure/cm_example/{cm_example}'
+  defaults:
+    _entity_form: 'cm_example.edit'
+    _title: 'Edit CM example'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.cm_example.delete_form:
+  path: '/admin/structure/cm_example/{cm_example}/delete'
+  defaults:
+    _entity_form: 'cm_example.delete'
+    _title: 'Delete CM example'
+  requirements:
+    _permission: 'administer site configuration'

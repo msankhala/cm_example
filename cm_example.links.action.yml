@@ -1,0 +1,5 @@
+entity.cm_example.add_form:
+  route_name: 'entity.cm_example.add_form'
+  title: 'Add CM example'
+  appears_on:
+  - entity.cm_example.collection
